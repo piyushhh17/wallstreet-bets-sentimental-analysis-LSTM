@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stock Info</title>
+  </head>
+  <body>
+    <h1>Stock Info for {{ symbol }}</h1>
+    <p>{{ summary }}</p>
+    {% if stocks %}
+      <h2>Stocks Mentioned:</h2>
+      <ul>
+        {% for stock in stocks %}
+          <li>{{ stock }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </body>
+</html>
