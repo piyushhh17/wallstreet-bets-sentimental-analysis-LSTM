@@ -22,7 +22,7 @@ An AI-driven sentiment analysis tool built to scan and analyze posts from Reddit
 | Deep Learning| TensorFlow, Keras                                      |
 | Data Handling| Pandas, NumPy                                          |
 | Visualization| Matplotlib                                             |
-| Storage      | SQLite                                                 |
+| Storage      | MongoDB                                                |
 | Interface    | Jupyter Notebook, HTML                                 |
 
 ---
